@@ -42,19 +42,19 @@ Data is paginated.
 
 ### Clean Database
 
-`python manage.py flush` or `make clean`
+`python3 manage.py flush` or `make clean`
 
 ### Run Server
 
-`python manage.py runserver`
+`python3 manage.py runserver`
 
 ### Populate Database
 
-`python manage.py ingest_data`
+`python3 manage.py ingest_data`
 
 ### Test
 
-`python -m pytest -s api/` or `make test`
+`python3 -m pytest -s api/` or `make test`
 
 ## Tools
 
