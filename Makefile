@@ -1,16 +1,16 @@
 run1:
-	python manage.py migrate
-	python manage.py ingest_data
-	python manage.py runserver
+	python3 manage.py migrate
+	python3 manage.py ingest_data
+	python3 manage.py runserver
 
 run0:
-	python manage.py runserver
+	python3 manage.py runserver
 
 clean:
-	python manage.py flush
+	python3 manage.py flush
 
 test:
-	python -m pytest -s api/
+	python3 -m pytest -s api/
 
 format:
 	black .
