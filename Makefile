@@ -1,4 +1,5 @@
 run1:
+	python manage.py migrate
 	python manage.py ingest_data
 	python manage.py runserver
 
